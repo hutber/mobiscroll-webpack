@@ -1,0 +1,26 @@
+{
+  "name": "MobiTest",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ./ --port 6002"
+  },
+  "author": "Jamie Hutber",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "http-server": "^0.9.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jquery": "^3.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
